@@ -1,1 +1,1 @@
-# qr_reader_flutetr
+# qr_reader_flutter
