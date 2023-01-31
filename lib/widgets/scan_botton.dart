@@ -11,9 +11,11 @@ class ScanBotton extends StatelessWidget {
     return FloatingActionButton(
       elevation: 0,//esta elevacion la ha quitado tambien de otro widget quede jumm
     onPressed: ()async{
-      String barcodeScanRes = await
-       FlutterBarcodeScanner.scanBarcode('#3D8BEF','CANCELAR',false,ScanMode.QR);
-       //pide: un color, mensaje de cancelar,, activar flash, y que es lo que va a hacer,, en este caso .QR
+      // String barcodeScanRes = await
+      //  FlutterBarcodeScanner.scanBarcode('#3D8BEF','CANCELAR',false,ScanMode.QR);
+                //pide: un color, mensaje de cancelar,, activar flash, y que es lo que va a hacer,, en este caso .QR
+      final  barcodeScanRes = 'github/gustavogarcia';
+       print('code: $barcodeScanRes');
     },
     child:Icon(Icons.filter_center_focus)
     );

@@ -39,7 +39,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   provider: ^6.0.5 # esta es mi importacion de providers, es una dependencia a nivel de flutter
   flutter_barcode_scanner: ^2.0.0 # lector de codigo qr
- 
+  path_provider: ^2.0.12 # nos ayuda a saber donde se encuentra el archivo de la bbdd, por que varia segun el dispositivo
+  sqflite: ^2.2.4+1 #vinculacion con la bbdd
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
